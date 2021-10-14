@@ -1,0 +1,92 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.tablero{
+   
+   border: 5px solid grey;
+   width: 460px;
+   height: 475px;
+   margin: 50px auto 0px auto;
+   font-weight: bolder;
+    
+}
+.borde{
+    
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid grey;
+    width: 416px;
+    height: 416px;
+    padding: 0%;
+    margin: 0px auto 0px auto;
+    justify-content: center;
+    position: absolute;
+    top: 80px;
+    left: 110px;
+    
+}
+
+div{
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    
+}
+
+.arriba{
+    list-style: none;
+    display: flex;
+    /*border: 1px solid black;*/
+    margin-top: 5px;
+    margin-left: -43px;
+    
+}
+.arriba li{
+    /*border: 1px solid black;*/
+    margin-left: 41px;
+}
+
+.abajo{
+    list-style: none;
+    display: flex;
+    /*border: 1px solid black;*/
+    margin-top: 432px;
+    margin-left: -45px;
+}
+.abajo li{
+    /*border: 1px solid black;*/
+    margin-left: 41.5px;
+}
+.izq{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    /*border: 1px solid black;*/
+    width: 10px;
+    margin-left: -35px;
+    margin-top: -445px;
+
+}
+
+.izq li{
+    /*border: 1px solid black;*/
+    margin-bottom: 35px;
+}
+
+
+.derecha{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    /*border: 1px solid black;*/
+    width: 10px;
+    margin-left: 407px;
+    margin-top: -438px;
+   
+}
+.derecha li{
+    /*border: 1px solid black;*/
+    margin-bottom: 35px;
+    
+}
